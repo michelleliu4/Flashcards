@@ -1,4 +1,5 @@
-const title = "Guess the Cat Species!";
+const title = "Guess the Cat!";
+const subtitle = "Can you name all the cat species?";
 
 // Difficulties: easy, medium, hard
 // Image: include url
@@ -59,4 +60,4 @@ const cardList = [
     },
   ];
 
-export { title, cardList };
+export { title, subtitle, cardList };

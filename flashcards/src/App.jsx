@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from "react";
 
 import Card from "../components/Card"
-import { title, cardList } from "../components/CardList"
+import { title, subtitle, cardList } from "../components/CardList"
 
 
 /* Random number from 0 to 1 less than max */
@@ -22,7 +22,8 @@ const App = () => {
     <div className="App">
       <div className="header">
         <h1>{title}</h1>
-        <h3>Number of Flashcards: {cardList.length}</h3>
+        <h3>{subtitle}</h3>
+        <h4>Number of Flashcards: {cardList.length}</h4>
       </div>
       <Card props={cardList[count]}/>
       <div className="button-container">
