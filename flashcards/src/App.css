@@ -4,15 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-#none{
-  background-color: clear;
-}
-#correct{
-  background-color: green;
-}
-#wrong{
-  background-color:red;
-}
 
 @keyframes logo-spin {
   from {

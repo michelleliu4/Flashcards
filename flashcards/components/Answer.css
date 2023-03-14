@@ -1,0 +1,51 @@
+#none{
+    background-color: clear;
+}
+#correct{
+    background-color: green;
+}
+#wrong{
+background-color:red;
+}
+
+form {
+    background: clear;
+    border: 0 none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 0 10%;
+    width: 400px;
+    margin: 5px auto;
+    text-align: center;
+    position: relative;
+  }
+
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 13px;
+  }
+  
+  .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 19px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+   .action-button:hover,.action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+  }
