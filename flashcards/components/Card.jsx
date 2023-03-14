@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 const Card = ({props}) => {
 
-
     const [flip, setFlip] = useState(false);
     const flipCard = () => {
         setFlip(!flip);

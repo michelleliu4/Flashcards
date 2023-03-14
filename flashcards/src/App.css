@@ -4,6 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+#none{
+  background-color: clear;
+}
+#correct{
+  background-color: green;
+}
+#wrong{
+  background-color:red;
+}
 
 @keyframes logo-spin {
   from {
@@ -38,5 +47,5 @@
   background-color: #223143;
   color: white;
   cursor: pointer;
-  margin-top: 10px;
+  margin: 12px;
 }
