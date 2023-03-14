@@ -20,7 +20,7 @@ const App = () => {
 
   const updateCountDown = () => {
     if (count > 0) {
-      setCount(count + 1);
+      setCount(count - 1);
     }
     else {
       setCount(cardList.length - 1);
@@ -39,8 +39,8 @@ const App = () => {
       <Answer actualAnswer={cardList[count].answer}/>
 
       <div className="button-container">
-        <button className="button" onClick={updateCountUp}>⬅</button>
-        <button className="button" onClick={updateCountDown}>⮕</button>
+        <button className="button" onClick={updateCountDown}>⬅</button>
+        <button className="button" onClick={updateCountUp}>⮕</button>
       </div>
     </div>
   )
